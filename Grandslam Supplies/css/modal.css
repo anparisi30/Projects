@@ -1,0 +1,53 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+}
+
+.modal-content {
+  border: 1px solid #ccc;
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -175px;
+  background-color: white;
+  padding: 15px;
+  padding-top: 40px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  transform: scale(0) rotate(180deg); 
+}
+
+.is-visible .modal-content {
+  transform: scale(1) rotate(0deg);
+  transition: transform 0.5s;
+}
+
+.is-visible {
+  visibility: visible;
+}
+
+.buttons {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: #ccc;
+  border-bottom: #999;
+  text-align: center;
+  line-height: 30px;
+}

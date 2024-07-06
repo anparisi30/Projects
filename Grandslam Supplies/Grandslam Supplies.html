@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Grandslam Supplies</title>
+	<link rel="stylesheet" href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/css/common.css">
+	<script src="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/jquery.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.submit').click(function() {
+				var username = $('.username').val();
+
+				// If the username length is under 10, alert the user
+				if(username.length) < 10 || username.length > 15) {
+				alert('Access Denied! please try again.');
+			}
+
+			if($('.username').width() > 200){
+				$('username').width(300);
+			}
+			else {
+				$('username').width(500);
+			}
+		});
+
+	});
+
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="./Grandslam Supplies_files/logo.jpg" height="75px">
+			</div>
+			<ul class="tools">
+				<li>
+					<div class="test-area">
+						<input type="text" class="username">
+					</div>
+					<button class="submit">Login</button>
+					<button class="submit2">Register</button>
+			</li></ul>
+			<ul class="nav">
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">Products</a>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">History</a>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+		<ul class="tools2">
+		<div class="sbar">
+		<button class="submit">Search</button>
+	</div></ul>
+		<div class="sidebar">
+			<h3>Gloves</h3>
+			<ul class="filter-condition">
+				<li>
+					<label>
+						<input type="checkbox" name="condition-new">
+						Catcher's Mit - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-used">
+						First Base Mitt - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-new">
+						Second Base - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-used">
+						Pitcher - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-new">
+						Outfield - Youth/Adult
+					</label>
+				</li>
+			</ul>
+			<h3>Batting Gloves</h3>
+			<ul class="filter-effect">
+				<li>
+					<label>
+						<input type="checkbox" name="effect-overdrive">
+						Youth
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-distortion">
+						Adult
+					</label>
+				</li>
+			</ul>
+			<h3>Batting Helmets</h3>
+			<ul class="filter-effect">
+				<li>
+					<label>
+						<input type="checkbox" name="brand-helmet">
+						Youth
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-fuzz">
+						Adult
+					</label>
+				</li>
+			</ul>
+			<h3>Baseball Bats</h3>
+			<ul class="filter-effect">
+				<li>
+					<label>
+						<input type="checkbox" name="effect-bat">
+						Ash
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-alum">
+						Aluminum
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-tee">
+						Tee-Ball
+					</label>
+				</li>
+		</ul></div>
+		<div class="content">
+			<ul class="products">
+				<li>
+				 <a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+					<img src="./Grandslam Supplies_files/yhhelmet.jpg" alt="Product name">
+				</a>
+					<header>Adidas Youth Batting Helmet</header>
+					<p>$69.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/adhelmet.jpg" alt="Product name">
+					</a>
+					<header>Under Armour Adult Batting Helmet</header>
+					<p>$99.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/yhbgloves.jpg" alt="Product name">
+					</a>
+					<header>Worth Youth Batting Gloves</header>
+					<p>$29.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/adcatchermit.jpg" alt="Product name">
+					</a>
+					<header>Mizou Adult Catcher's Mit</header>
+					<p>$89.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/yhcatchermit.jpg" alt="Product name">
+					</a>
+					<header>Youth Catcher's Mit</header>
+					<p>$59.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/wilsonball.jpg" alt="Product name">
+					</a>
+					<header>Wilson Practice Blem Balls w/Bucket (3 dozen)</header>
+					<p>$145.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/louisville.jpg" alt="Product name">
+					</a>
+					<header>Louisville Slugger Ash Wood Baseball Bat</header>
+					<p>$54.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/rawlingdecal.jpg" alt="Product name">
+					</a>
+					<header>Rawlings MLB Logo Batting Helmet Decals</header>
+					<p>$7.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/adpalm.jpg" alt="Product name">
+					</a>
+					<header>Palmgard Adult Batting Gloves</header>
+					<p>$29.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/franklin.jpg" alt="Product name">
+					</a>
+					<header>Franklin Youth Batting Gloves</header>
+					<p>$19.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/eastalum.jpg" alt="Product name">
+					</a>
+					<header>Easton Aluminum Baseball Bat</header>
+					<p>$29.99</p>
+				</li>
+				<li>
+					<a href="file:///C:/Users/Adam/Desktop/Grandslam%20Supplies/index.html#">
+						<img src="./Grandslam Supplies_files/eastyouth.jpg" alt="Product name">
+					</a>
+					<header>Easton Youth Tee-Ball Bat</header>
+					<p>$19.99</p>
+				</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<div class="copyright">Grandslam Supplies © 2015</div>
+			</div>
+		</div>
+	
+</body></html>

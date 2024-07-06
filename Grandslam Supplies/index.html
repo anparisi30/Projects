@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grandslam Supplies</title>
+	<link rel="stylesheet"  href="css/common.css">
+	<link rel="stylesheet"  href="css/modal.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+
+<!-- 	<script>
+		$(document).ready(function() {
+			$('.submit').click(function() {
+				var username = $('.username').val();
+
+				// If the username length is under 10, alert the user
+				if(username.length) < 10 || username.length > 15) {
+				alert('Access Denied! please try again.');
+			}
+
+			if($('.username').width() > 200){
+				$('username').width(300);
+			}
+			else {
+				$('username').width(500);
+			}
+		});
+
+	});
+	</script> -->
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="img/logo.jpg" height="75px">
+			</div>
+			<ul class="tools">
+				<li>
+					<div class="test-area">
+						<input type="text" class="username">
+					</div>
+					<button class="submit">Login</button>
+					<button class="submit2">Register</button>
+			</ul>
+			<ul class="nav">
+				<li>
+					<a href="#">Products</a>
+				</li>
+				<li>
+					<a href="#">History</a>
+				</li>
+				<li>
+					<a href="#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+		<ul class="tools2">
+		<div class="sbar">
+		<button class="submit">Search</button>
+	</ul>
+		<div class="sidebar">
+			<h3>Gloves</h3>
+			<ul class="filter-condition">
+				<li>
+					<label>
+						<input type="checkbox" name="condition-new">
+						Catcher's Mit - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-used">
+						First Base Mitt - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-new">
+						Second Base - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-used">
+						Pitcher - Youth/Adult
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="condition-new">
+						Outfield - Youth/Adult
+					</label>
+				</li>
+			</ul>
+			<h3>Batting Gloves</h3>
+			<ul class="filter-effect">
+				<li>
+					<label>
+						<input type="checkbox" name="effect-overdrive">
+						Youth
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-distortion">
+						Adult
+					</label>
+				</li>
+			</ul>
+			<h3>Batting Helmets</h3>
+			<ul class="filter-effect">
+				<li>
+					<label>
+						<input type="checkbox" name="brand-helmet">
+						Youth
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-fuzz">
+						Adult
+					</label>
+				</li>
+			</ul>
+			<h3>Baseball Bats</h3>
+			<ul class="filter-effect">
+				<li>
+					<label>
+						<input type="checkbox" name="effect-bat">
+						Ash
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-alum">
+						Aluminum
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="effect-tee">
+						Tee-Ball
+					</label>
+				</li>
+		</div>
+		<div class="content">
+			<ul class="products">
+				<li class="product-item">
+				 <a href="#">
+					<img src="img/yhhelmet.jpg" alt="Product name">
+				</a>
+					<header>Adidas Youth Batting Helmet</header>
+					<p>$69.99</p>
+					<div class="desc">
+						The Adidas youth batting helmet is the premiere choice for those who want chrome helmets. The cost is 750$ because we said it can be.
+					</div>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/adhelmet.jpg" alt="Product name">
+					</a>
+					<header>Under Armour Adult Batting Helmet</header>
+					<p>$99.99</p>
+					<div class="desc">
+					The Under Armour batting helmet is pretty cool too but not as cool because it's not chrome.
+					</div>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/yhbgloves.jpg" alt="Product name">
+					</a>
+					<header>Worth Youth Batting Gloves</header>
+					<p>$29.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/adcatchermit.jpg" alt="Product name">
+					</a>
+					<header>Mizou Adult Catcher's Mit</header>
+					<p>$89.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/yhcatchermit.jpg" alt="Product name">
+					</a>
+					<header>Youth Catcher's Mit</header>
+					<p>$59.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/wilsonball.jpg" alt="Product name">
+					</a>
+					<header>Wilson Practice Blem Balls w/Bucket (3 dozen)</header>
+					<p>$145.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/louisville.jpg" alt="Product name">
+					</a>
+					<header>Louisville Slugger Ash Wood Baseball Bat</header>
+					<p>$54.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/rawlingdecal.jpg" alt="Product name">
+					</a>
+					<header>Rawlings MLB Logo Batting Helmet Decals</header>
+					<p>$7.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/adpalm.jpg" alt="Product name">
+					</a>
+					<header>Palmgard Adult Batting Gloves</header>
+					<p>$29.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/franklin.jpg" alt="Product name">
+					</a>
+					<header>Franklin Youth Batting Gloves</header>
+					<p>$19.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/eastalum.jpg" alt="Product name">
+					</a>
+					<header>Easton Aluminum Baseball Bat</header>
+					<p>$29.99</p>
+				</li>
+				<li class="product-item">
+					<a href="#">
+						<img src="img/eastyouth.jpg" alt="Product name">
+					</a>
+					<header>Easton Youth Tee-Ball Bat</header>
+					<p>$19.99</p>
+				</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<div class="copyright">Grandslam Supplies &copy; 2015</div>
+			</div>
+		</div>
+
+		<!-- Modal box -->
+		<div class="modal">
+			<div class="modal-content">
+				<header class="modal-header"></header>
+				<div class="descText"></div>
+				<div class="buttons">
+					<button class="ok-btn">OK</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

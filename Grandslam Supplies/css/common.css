@@ -1,0 +1,216 @@
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+}
+
+.logo{
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+
+.tools{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000,
+				3px 3px 5px black;
+}
+
+.nav li{
+	float: left;
+	margin-left: 40px;
+}
+
+.nav li:hover{
+	font-size: 20px;
+}
+
+button{
+	font-family: 'antonio';
+	display: inline-block;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 20px;
+	background-color: red;
+	color: white;
+	padding: 5px 16px;
+	text-align: center;
+	box-shadow: 3px 3px black;
+	cursor: pointer;
+	transition: all 0.1s ease-out;
+}
+
+button:hover{
+	box-shadow: none;
+	background-color: #c20b0b;
+}
+
+button:active{
+	transform: rotate(1deg);
+}
+
+.test-area{
+	margin-top: 0 auto;
+}
+
+.username{
+	width: 181px;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header{
+	height: 122px;
+	border-bottom: 3px solid black;
+	position: relative;
+	margin-bottom: 70px;
+}
+
+@font-face{
+	font-family: '007 GoldenEye';
+	src: url('fonts/007 GoldenEye-webfont.ttf') format('truetype');
+}
+
+.sidebar{
+	float: left;
+	width: 210px;
+}
+
+.sidebar h3{
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: green;
+	font-family: '007 GoldenEye';
+	text-transform: uppercase;
+	display: inline-block;
+	padding-left: 19px;
+	background: url(../img/star.png) no-repeat 5px 6px;
+}
+
+.sidebar ul{
+	margin-top: 0;
+	padding-left: 25px;
+	color: brown;
+	font-weight: bold;
+}
+
+.sidebar li{
+	list-style: none;
+}
+
+.content{
+	float: left;
+	width: 730px;
+}
+
+.content ul{
+	margin: 0;
+	padding: 0;
+}
+
+.content li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 13px;
+	width: 148px;
+	height: 240px;
+
+}
+
+.content li a{
+	display: block;
+}
+
+.content li img{
+	box-shadow: 2px 2px 3px 3px grey;
+}
+
+.content li img:hover{
+	background-color: aqua;
+}
+
+.content header{
+	margin: 5px 0;
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.content header:hover{
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.content p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #45812d;
+}
+
+.product{
+	width: 154px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+.product p{
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.product p.price{
+	font-weight: bold;
+	color: #45812d;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.product-item .desc {
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.footer{
+	clear: both;
+	border-top: 3px solid black;
+}
+
+.copyright{
+	font-family: arial black;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 45px;
+
+}
